@@ -1,0 +1,86 @@
+2024-09-09 21:46:58.5636 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-09 21:46:58.6033 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-09 21:46:58.6203 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\aau33\source\repos\TrainReservationAPI\TrainReservationAPI\nlog.config
+2024-09-09 21:46:58.6356 Info Configuration initialized.
+2024-09-09 21:47:50.1959 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-09 21:47:50.2342 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-09 21:47:50.2561 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\aau33\source\repos\TrainReservationAPI\TrainReservationAPI\nlog.config
+2024-09-09 21:47:50.2756 Info Configuration initialized.
+2024-09-09 21:51:09.1315 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-09 21:51:09.1668 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-09 21:51:09.1897 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\aau33\source\repos\TrainReservationAPI\TrainReservationAPI\nlog.config
+2024-09-09 21:51:09.2086 Info Configuration initialized.
+2024-09-09 21:53:29.5167 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-09 21:53:29.5394 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-09 21:53:29.5618 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\aau33\source\repos\TrainReservationAPI\TrainReservationAPI\nlog.config
+2024-09-09 21:53:29.5933 Info Configuration initialized.
+2024-09-09 22:23:23.4576 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-09 22:23:23.4832 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-09 22:23:23.5005 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\aau33\source\repos\TrainReservationAPI\TrainReservationAPI\nlog.config
+2024-09-09 22:23:23.5153 Info Configuration initialized.
+2024-09-09 22:30:47.5036 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-09 22:30:47.5493 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-09 22:30:47.5817 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\aau33\source\repos\TrainReservationAPI\TrainReservationAPI\nlog.config
+2024-09-09 22:30:47.5994 Info Configuration initialized.
+2024-09-09 22:32:04.4133 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-09 22:32:04.4373 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-09 22:32:04.4535 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\aau33\source\repos\TrainReservationAPI\TrainReservationAPI\nlog.config
+2024-09-09 22:32:04.4690 Info Configuration initialized.
+2024-09-09 22:36:31.4475 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-09 22:36:31.4815 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-09 22:36:31.5023 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\aau33\source\repos\TrainReservationAPI\TrainReservationAPI\nlog.config
+2024-09-09 22:36:31.5186 Info Configuration initialized.
+2024-09-09 22:40:24.0322 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-09 22:40:24.0718 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-09 22:40:24.0997 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\aau33\source\repos\TrainReservationAPI\TrainReservationAPI\nlog.config
+2024-09-09 22:40:24.1196 Info Configuration initialized.
+2024-09-09 22:43:31.2511 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-09 22:43:31.2819 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-09 22:43:31.3011 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\aau33\source\repos\TrainReservationAPI\TrainReservationAPI\nlog.config
+2024-09-09 22:43:31.3162 Info Configuration initialized.
+2024-09-09 23:48:18.4576 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-09 23:48:18.4919 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-09 23:48:18.5185 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\aau33\source\repos\TrainReservationAPI\TrainReservationAPI\nlog.config
+2024-09-09 23:48:18.5438 Info Configuration initialized.
+2024-09-09 23:55:19.4701 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-09 23:55:19.5107 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-09 23:55:19.5346 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\aau33\source\repos\TrainReservationAPI\TrainReservationAPI\nlog.config
+2024-09-09 23:55:19.5521 Info Configuration initialized.
+2024-09-09 23:56:48.3610 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-09 23:56:48.3951 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-09 23:56:48.4254 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\aau33\source\repos\TrainReservationAPI\TrainReservationAPI\nlog.config
+2024-09-09 23:56:48.4590 Info Configuration initialized.
+2024-09-09 23:57:17.9208 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-09 23:57:17.9731 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-09 23:57:18.0093 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\aau33\source\repos\TrainReservationAPI\TrainReservationAPI\nlog.config
+2024-09-09 23:57:18.0317 Info Configuration initialized.
+2024-09-10 00:05:34.8946 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-10 00:05:34.9305 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-10 00:05:34.9560 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\aau33\source\repos\TrainReservationAPI\TrainReservationAPI\nlog.config
+2024-09-10 00:05:34.9757 Info Configuration initialized.
+2024-09-10 00:06:48.6165 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-10 00:06:48.6447 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-10 00:06:48.6726 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\aau33\source\repos\TrainReservationAPI\TrainReservationAPI\nlog.config
+2024-09-10 00:06:48.6920 Info Configuration initialized.
+2024-09-10 00:07:14.4503 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-10 00:07:14.4838 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-10 00:07:14.5031 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\aau33\source\repos\TrainReservationAPI\TrainReservationAPI\nlog.config
+2024-09-10 00:07:14.5201 Info Configuration initialized.
+2024-09-10 00:11:35.1046 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-10 00:11:35.1526 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-10 00:11:35.1736 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\aau33\source\repos\TrainReservationAPI\TrainReservationAPI\nlog.config
+2024-09-10 00:11:35.1967 Info Configuration initialized.
+2024-09-10 00:13:06.3075 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-10 00:13:06.3438 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-10 00:13:06.3732 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\aau33\source\repos\TrainReservationAPI\TrainReservationAPI\nlog.config
+2024-09-10 00:13:06.3943 Info Configuration initialized.
+2024-09-10 00:32:30.8545 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-10 00:32:30.8690 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-10 00:32:30.8690 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\aau33\source\repos\TrainReservationAPI\TrainReservationAPI\nlog.config
+2024-09-10 00:32:30.8905 Info Configuration initialized.
+2024-09-10 00:32:32.0138 Info AppDomain Shutting down. LogFactory closing...
+2024-09-10 00:32:32.0259 Info LogFactory has been closed.
+2024-09-10 00:33:00.4893 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-10 00:33:00.5280 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-10 00:33:00.5547 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\aau33\source\repos\TrainReservationAPI\TrainReservationAPI\nlog.config
+2024-09-10 00:33:00.5925 Info Configuration initialized.
