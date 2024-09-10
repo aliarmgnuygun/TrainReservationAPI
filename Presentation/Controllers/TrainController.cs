@@ -16,15 +16,20 @@ namespace Presentation.Controllers
         {
             _serviceManager = serviceManager;
         }
-        
+
         // POST: api/train/reserve
         [HttpPost("reserve")]
         public async Task<IActionResult> MakeReservation([FromBody] ReservationRequest request)
         {
+            if (request == null || request.Train == null || request.Train.Wagons == null || !request.Train.Wagons.Any())
+                return BadRequest("Invalid reservation request data.");
+
+            // Tren ID ile treni veritabanından alıyoruz
             var train = await _serviceManager.TrainManager.GetTrainByIdAsync(request.Train.Id);
             if (train == null)
                 return NotFound("Train not found.");
 
+            // Rezervasyon yapılacak kişi sayısını alıyoruz
             int totalPassengers = request.NumberOfPassengers;
 
             // Kişilerin farklı vagonlara yerleştirilebileceği kontrolü
@@ -55,12 +60,14 @@ namespace Presentation.Controllers
             }
         }
 
-
         // Kişilerin aynı vagona yerleştirilmesi
         private ReservationResponse AllocatePassengersInSingleWagon(IEnumerable<Wagon> wagons, int totalPassengers)
         {
             foreach (var wagon in wagons)
             {
+                if (wagon == null)
+                    continue;
+
                 int availableSeats = (int)(wagon.Capacity * 0.7) - wagon.OccupiedSeats;
 
                 if (availableSeats >= totalPassengers)
@@ -91,6 +98,9 @@ namespace Presentation.Controllers
 
             foreach (var wagon in wagons)
             {
+                if (wagon == null)
+                    continue;
+
                 int availableSeats = (int)(wagon.Capacity * 0.7) - wagon.OccupiedSeats;
 
                 if (availableSeats > 0)
@@ -118,3 +128,4 @@ namespace Presentation.Controllers
         }
     }
 }
+    

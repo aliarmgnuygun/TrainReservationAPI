@@ -7,5 +7,6 @@ namespace Entities.Models
         public string Name { get; set; }
         public int Capacity { get; set; }
         public int OccupiedSeats { get; set; }
+        public int TrainId { get; set; }
     }
 }

@@ -13,12 +13,7 @@ namespace Repositories.EFCore.Config
                 new Train
                 {
                     Id = 1,
-                    Name = "Capital Express"
-                },
-                new Train
-                {
-                    Id = 2,
-                    Name = "East Coast Line"
+                    Name = "Başkent Ekspres"
                 }
             );
         }
