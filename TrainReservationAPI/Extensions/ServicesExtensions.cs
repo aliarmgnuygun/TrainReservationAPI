@@ -19,8 +19,13 @@ namespace TrainReservationAPI.Extensions
             services.AddScoped<IRepositoryManager, RepositoryManager>(); // Repository manager
         }
 
-        public static void ConfigureServiceManager(this IServiceCollection services) =>
-            services.AddScoped<IServiceManager, ServiceManager>();
+        public static void ConfigureServiceManager(this IServiceCollection services) 
+        {
+            services.AddScoped<IServiceManager, ServiceManager>(); // Service manager
+            services.AddScoped<ITrainService, TrainManager>(); // Train service
+            services.AddScoped<IWagonService, WagonManager>(); // Wagon service
+        }
+            
 
         public static void ConfigureLoggerService(this IServiceCollection services) =>
             services.AddSingleton<ILoggerService, LoggerManager>();

@@ -15,7 +15,7 @@ namespace Services
 
         public async Task<IEnumerable<Train>> GetAllTrainsAsync()
         {
-            return await _repositoryManager.Train.GetAllTrains();
+            return await _repositoryManager.Train.GetAllTrainsAsync();
         }
 
         public async Task<Train> GetTrainByIdAsync(int id)

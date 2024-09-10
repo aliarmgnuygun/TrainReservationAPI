@@ -23,12 +23,19 @@ namespace Repositories.EFCore
             await _context.SaveChangesAsync(); 
         }
 
-        public async Task<IEnumerable<Train>> GetAllTrains()
+        public async Task<IEnumerable<Train>> GetAllTrainsAsync()
         {
-            return await _context.Trains.ToListAsync();
+            return await _context.Trains
+                .Include(t => t.Wagons)
+                .ToListAsync();
         }
 
-        public async Task<Train> GetTrainByIdAsync(int id) => await _context.Trains.FindAsync(id);
+        public async Task<Train> GetTrainByIdAsync(int id) 
+        {
+            return await _context.Trains
+                 .Include(t => t.Wagons) 
+                 .FirstOrDefaultAsync(t => t.Id == id);
+        }
 
         public async Task UpdateTrainAsync(Train train)
         {

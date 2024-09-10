@@ -10,19 +10,18 @@ namespace Presentation.Controllers
     [ApiController]
     public class TrainController : ControllerBase
     {
-        private readonly IServiceManager serviceManager;
+        private readonly IServiceManager _serviceManager;
 
         public TrainController(IServiceManager serviceManager)
         {
-            this.serviceManager = serviceManager;
+            _serviceManager = serviceManager;
         }
-
+        
         // POST: api/train/reserve
         [HttpPost("reserve")]
         public async Task<IActionResult> MakeReservation([FromBody] ReservationRequest request)
         {
-            // TrainId üzerinden treni çekiyoruz
-            var train = await serviceManager.TrainManager.GetTrainByIdAsync(request.TrainId);
+            var train = await _serviceManager.TrainManager.GetTrainByIdAsync(request.Train.Id);
             if (train == null)
                 return NotFound("Train not found.");
 
@@ -33,20 +32,29 @@ namespace Presentation.Controllers
             {
                 var allocation = AllocatePassengersAcrossWagons(train.Wagons, totalPassengers);
                 if (allocation.CanBeReserved)
-                    return Ok(allocation);
+                    return Ok(allocation);  // Başarılı rezervasyon cevabı
                 else
-                    return BadRequest("Reservation not possible.");
+                    return Ok(new ReservationResponse
+                    {
+                        CanBeReserved = false,
+                        SeatingDetails = new List<SeatingDetail>() // Boş yerleşim ayrıntısı
+                    });
             }
             else
             {
                 // Kişilerin aynı vagonda olması gerektiğinde
                 var allocation = AllocatePassengersInSingleWagon(train.Wagons, totalPassengers);
                 if (allocation.CanBeReserved)
-                    return Ok(allocation);
+                    return Ok(allocation);  // Başarılı rezervasyon cevabı
                 else
-                    return BadRequest("Reservation not possible in a single wagon.");
+                    return Ok(new ReservationResponse
+                    {
+                        CanBeReserved = false,
+                        SeatingDetails = new List<SeatingDetail>() // Boş yerleşim ayrıntısı
+                    });
             }
         }
+
 
         // Kişilerin aynı vagona yerleştirilmesi
         private ReservationResponse AllocatePassengersInSingleWagon(IEnumerable<Wagon> wagons, int totalPassengers)
@@ -54,6 +62,7 @@ namespace Presentation.Controllers
             foreach (var wagon in wagons)
             {
                 int availableSeats = (int)(wagon.Capacity * 0.7) - wagon.OccupiedSeats;
+
                 if (availableSeats >= totalPassengers)
                 {
                     return new ReservationResponse
@@ -86,12 +95,14 @@ namespace Presentation.Controllers
 
                 if (availableSeats > 0)
                 {
-                    int allocatedPassengers = (remainingPassengers > availableSeats) ? availableSeats : remainingPassengers;
+                    int allocatedPassengers = Math.Min(remainingPassengers, availableSeats);
+
                     seatingDetails.Add(new SeatingDetail
                     {
                         WagonName = wagon.Name,
                         PassengerCount = allocatedPassengers
                     });
+
                     remainingPassengers -= allocatedPassengers;
                 }
 
